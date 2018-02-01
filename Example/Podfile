@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HBDemoSDK_Example' do
+  pod 'HBDemoSDK', :path => '../'
+
+  target 'HBDemoSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
