@@ -21,8 +21,7 @@ pod 'HBDemoSDK'
 ```
 
 ## Author
-
-林孙信, linsunxin@yy.com
+Hubert
 
 ## License
 

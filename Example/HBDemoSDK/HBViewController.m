@@ -7,6 +7,7 @@
 //
 
 #import "HBViewController.h"
+#import "HBObject.h"
 
 @interface HBViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    HBObject *obj = [[HBObject alloc] init];
+    [obj print];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
